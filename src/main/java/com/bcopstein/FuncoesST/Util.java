@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Util {
 	public static double fatorial(int n) {
-		double resp = 2;
+		double resp = 1;
 		for(;n>1;n--) {
 			resp = resp*n;
 		}
