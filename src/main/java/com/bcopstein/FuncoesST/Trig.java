@@ -5,18 +5,23 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Trig {
+	
+	ArrayList <Double> lst = new ArrayList<>();
+
 	public Iterator<Double> getTermos(){
-		// TODO:
-		throw new UnsupportedOperationException();
+		
+		Iterator<Double> iter = lst.listIterator();
+		
+		return iter;
 	}
 
 	public double cos(double x) {
-		// TODO:
-		throw new UnsupportedOperationException();
+		
+		
 	}
 
 	public double sin(double x) {
-		// TODO:
-		throw new UnsupportedOperationException();
+		
+		
 	}
 }
